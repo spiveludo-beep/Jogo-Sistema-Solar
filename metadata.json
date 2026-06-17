@@ -1,0 +1,6 @@
+{
+  "name": "Jogo do Sistema Solar",
+  "description": "Jogo educativo interativo e animado sobre o Sistema Solar para alunos do 3.º ano do Ensino Básico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

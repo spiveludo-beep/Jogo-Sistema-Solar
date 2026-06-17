@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-orbit-mercury: orbit 6s linear infinite;
+  --animate-orbit-venus: orbit 10s linear infinite;
+  --animate-orbit-earth: orbit 14s linear infinite;
+  --animate-orbit-mars: orbit 18s linear infinite;
+  --animate-orbit-jupiter: orbit 26s linear infinite;
+  --animate-orbit-saturn: orbit 34s linear infinite;
+  --animate-orbit-uranus: orbit 42s linear infinite;
+  --animate-orbit-neptune: orbit 50s linear infinite;
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom scrollbar to keep layout clean and kid-friendly */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.8);
+}
+
+/* Vibrant Palette Flat 3D Shadows & Accents */
+.vibrant-shadow-cyan {
+  box-shadow: 0 6px 0 0 #0891b2;
+}
+.vibrant-shadow-amber {
+  box-shadow: 0 6px 0 0 #d97706;
+}
+.vibrant-shadow-pink {
+  box-shadow: 0 6px 0 0 #db2777;
+}
+.vibrant-shadow-indigo {
+  box-shadow: 0 6px 0 0 #4338ca;
+}
+.vibrant-shadow-yellow {
+  box-shadow: 0 6px 0 0 #ca8a04;
+}
+.vibrant-shadow-emerald {
+  box-shadow: 0 6px 0 0 #059669;
+}
+.vibrant-shadow-violet {
+  box-shadow: 0 6px 0 0 #7c3aed;
+}
+
